@@ -1,0 +1,116 @@
+/* General Layout */
+.studio-root {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom right, #0f0f0f, #1e1e1e);
+    color: #fff;
+    padding: 90px 60px;
+    border-radius: 25px;
+  }
+  
+  /* Hero */
+  .studio-hero {
+    text-align: center;
+    padding: 90px 10px;
+    background: linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d);
+    border-radius: 15px;
+  }
+  .studio-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .studio-subtitle {
+    font-size: 1.25rem;
+    color: #eee;
+    margin-bottom: 30px;
+  }
+  .studio-button {
+    background: #1e90ff;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .studio-button:hover {
+    background: #0f6ad0;
+  }
+  
+  /* Sections */
+  .studio-section {
+    padding: 80px 20px;
+    text-align: center;
+  }
+  .studio-section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  
+  /* Cards */
+  .studio-card-container {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .studio-card {
+    background: #2b2b2b;
+    border-radius: 16px;
+    padding: 30px;
+    text-align: left;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+  .studio-card:hover {
+    transform: translateY(-10px);
+  }
+  .studio-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+  }
+  .studio-card p {
+    color: #aaa;
+    font-size: 0.95rem;
+  }
+  
+  /* Portfolio Cards */
+  .portfolio-card .studio-card-image {
+    background: #444;
+    height: 160px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+    font-size: 1rem;
+  }
+  
+  /* Contact */
+  .studio-contact {
+    border-radius: 25px;
+    background: linear-gradient(to right, #2f2f2f, #3f3f3f);
+  }
+  .studio-contact-text {
+    font-size: 1.1rem;
+    color: #ccc;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    
+    
+  }
+  
+  /* Footer */
+  .studio-footer {
+    padding: 30px;
+    background: #111;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    
+  }
+  
