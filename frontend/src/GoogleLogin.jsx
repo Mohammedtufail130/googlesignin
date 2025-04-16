@@ -1,5 +1,5 @@
 import { useGoogleLogin } from "@react-oauth/google";
-import { googleAuth } from "./api";
+import { googleAuth } from "./server";
 import { useNavigate } from "react-router-dom";
 import './GoogleLogin.css';
 
