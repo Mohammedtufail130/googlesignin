@@ -5,6 +5,12 @@ const PORT = process.env.PORT || 8080;
 require('./models/dbConnection');
 const authRouter = require('./routes/authRouter');
 const cors = require('cors');
+import cors from 'cors'
+
+
+app.use(cors({
+    origin: ["http://localhost:3000","https://studioin.netlify.app"]
+}));
 
 app.use(cors());
 app.get('/', (_req, res)=>{
