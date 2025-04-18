@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 require('dotenv').config();
-const PORT = process.env.PORT || 'https://googlesignin-two.vercel.app';
+const PORT = process.env.PORT || 3000;
 require('./models/dbConnection');
 const authRouter = require('./routes/authRouter');
 const cors = require('cors');
